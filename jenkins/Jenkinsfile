@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                echo Delivered
+                bat 'echo Delivered'
             }
         }
     }
